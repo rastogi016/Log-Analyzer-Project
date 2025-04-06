@@ -1,0 +1,4 @@
+ip,datetime,method,url,protocol,status,size
+127.0.0.1,05/Apr/2025:10:12:34 +0000,GET,/index.html,HTTP/1.1,200,1043
+192.168.1.10,05/Apr/2025:10:13:00 +0000,POST,/login.php,HTTP/1.1,302,512
+10.0.0.1,05/Apr/2025:10:15:27 +0000,GET,/admin,HTTP/1.1,403,721
