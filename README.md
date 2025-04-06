@@ -60,11 +60,11 @@ python main.py
 ---
 
 # 🔧 Requirements
-Python 3.8+
-Runs on both Linux and Windows
-No external libraries required (built with standard Python modules)
+- Python 3.8+
+- Runs on both Linux and Windows
+- No external libraries required (built with standard Python modules)
 
 ## Use Cases
-System log monitoring
-Security audit preparation
-Brute-force detection
+- System log monitoring
+- Security audit preparation
+- Brute-force detection
