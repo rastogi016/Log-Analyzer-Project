@@ -1,1 +1,2 @@
-[2025-04-06 20:16:55] 🚨 Apache - GET /admin returned 403
+
+[2025-04-07 12:33:17] 💉 SQL Injection attempt from 127.0.0.1 on /login.php?id=1' OR '1'='1' UNION SELECT null, null, null, version()-- -
