@@ -56,21 +56,15 @@ cd log-analyzer
 
 # Run the analyzer
 python main.py
+```
+---
 
-**🔧 Requirements**
+# 🔧 Requirements
+- Python 3.8+
+- Runs on both Linux and Windows
+- No external libraries required (built with standard Python modules)
 
-Python 3.8+
-
-Runs on both Linux and Windows
-
-No external libraries required (built with standard Python modules)
-
-Use Cases
-System log monitoring
-
-Security audit preparation
-
-Brute-force detection
-
-Mini-SIEM project for cybersecurity students
-
+## Use Cases
+- System log monitoring
+- Security audit preparation
+- Brute-force detection
