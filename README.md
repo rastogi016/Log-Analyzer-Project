@@ -68,3 +68,6 @@ python main.py
 - System log monitoring
 - Security audit preparation
 - Brute-force detection
+- SQL Injection Detection
+- XSS Detection
+- LFI Detection
