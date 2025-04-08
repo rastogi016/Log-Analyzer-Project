@@ -113,8 +113,8 @@ def handle_syslog(line):
 def start_monitoring():
     paths_and_handlers = [
         ("logs/apache_sample.log", handle_apache),
-        ("logs/auth_sample.log", handle_auth),
-        ("logs/syslog_sample.log", handle_syslog)
+        ("logs/Linux/auth_sample.log", handle_auth),
+        ("logs/Linux/syslog_sample.log", handle_syslog)
     ]
 
     threads = []

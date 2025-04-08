@@ -10,7 +10,7 @@ from modules.report import export_to_csv
 
 def main():
     # Authlog Handler
-    authlogs = parse_auth_log('logs/auth_sample.log')
+    authlogs = parse_auth_log('logs/Linux/auth_sample.log')
     filtered_logs = filter_noise(authlogs, trusted_ips=['192.168.1.20'], ignored_users=['testuser'])
 
     print("[+] Filtered Logs:")
@@ -28,7 +28,7 @@ def main():
         print("[✔] No brute-force alerts generated.")
     
     # Syslog Handler
-    syslogs = parse_syslog('logs/syslog_sample.log')
+    syslogs = parse_syslog('logs/Linux/syslog_sample.log')
     export_to_csv(syslogs, filename='syslogs.csv')
 
     # Apache Log Handler
